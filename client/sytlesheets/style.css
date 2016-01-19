@@ -8,6 +8,7 @@
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
 
 body {
+  font-family: Lato, "Microsoft Jhenghei", "Hiragino Sans GB", "PingFang SC", "Microsoft YaHei", sans-serif;
   background: #eee;
   color: #666666; }
 
@@ -79,10 +80,11 @@ body {
 
 .comments {
   list-style-type: none;
-  margin: 0; }
+  margin: 0;
+  padding: 0; }
   .comments li h4 {
     font-size: 16px;
-    margin: 0; }
+    margin: 0 0 6px 0; }
     .comments li h4 .date {
       font-size: 12px;
       font-weight: normal; }
